@@ -18,3 +18,4 @@ endfunction
 function! db#adapter#ecto#complete_opaque(url) abort
     return map(s:repo_list(), 'v:val[0]')
 endfunction
+        let l:url = get(l:item, 08)
